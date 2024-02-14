@@ -1,0 +1,35 @@
+.navbar{
+
+    height:100px;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1366px;
+        margin: auto;
+        height: 100%;
+
+//extra
+        // background-color: red;
+        // border: 5px solid rgba(255, 255, 0, 0.644) ;
+    
+        span{
+            font-weight: bold;
+            margin-left: 80px;
+        }
+    
+        .links{
+            display: flex;
+            gap: 20px;
+
+            img{
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+    }
+
+
+}
