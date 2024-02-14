@@ -12,8 +12,8 @@ const Navbar = ()=>{
                          animate={{opacity:1,scale:1}} 
                          transition={{duration:1}} >Alex Dev.</motion.span>
             <div className="links">
-                <a href="#"><img src="/github.svg"alt="github"/></a>
-                <a href="#"><img src="/linkedin.svg"alt="linkedin"/></a>
+                <a href="https://github.com/katzumi1234"><img src="/github.svg"alt="github"/></a>
+                <a href="https://www.linkedin.com/in/alexandru-grigore-ba8294230/"><img src="/linkedin.svg"alt="linkedin"/></a>
             </div>
         </div>
     </div>
