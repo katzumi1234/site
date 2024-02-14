@@ -22,10 +22,14 @@
         .links{
             display: flex;
             gap: 20px;
+            background: transparent;
 
             img{
                 width: 28px;
                 height: 28px;
+                background: rgba(90, 97, 26, 0.418);
+                border-radius: 30px;
+      
             }
         }
 
