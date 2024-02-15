@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar"
 import Prezentare from "./components/prezentare/prezentare";
 import Profil from "./components/profil/profil";
 import Servici from "./components/servici/servici";
+import Portofoliu from "./portofoliu/Portofoliu";
 
 
 
@@ -17,12 +18,8 @@ function App() {
 <section><Servici/></section>
 <div className="spatiu"></div>
 <section id="Portfolio"><Prezentare type="portofoliu"/></section>
-<section>Portofoliu1</section>
-<section>Portofoliu2</section>
-<section>Portofoliu3</section>
+<section><Portofoliu/></section>
 <section id="Contact">Contact</section>
-
-<Profil/>
   </div>
 };
 
